@@ -4,10 +4,11 @@
 		<Project filename="NewDecimal/NewDecimal.cbp" />
 		<Project filename="mpfci/mpfci.cbp" />
 		<Project filename="Make_BoostMath.cbp" />
-		<Project filename="Make_EigenMath.cbp" />
-		<Project filename="Test_EigenMath.cbp" />
-		<Project filename="Test_NumC.cbp" />
-		<Project filename="TestEigen_mpDecimal/TestEigenmpDecimal.cbp" />
-		<Project filename="Testgmpfrxx/Testgmpfrxx.cbp" />
+		<Project filename="mpFormulaC_Short.cbp" />
+		<Project filename="mpFormulaC_Full.cbp" />
+		<Project filename="TestFLINT/TestFLINT.cbp" />
+		<Project filename="../Common_Eigen/Test_EigenMath.cbp" />
+		<Project filename="../Common_Eigen/Make_EigenMath.cbp" />
+		<Project filename="../Common_Eigen/Test_NumC.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

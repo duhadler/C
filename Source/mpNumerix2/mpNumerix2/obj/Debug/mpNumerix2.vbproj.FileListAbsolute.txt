@@ -1,0 +1,7 @@
+I:\Data\mpFormulaTDM\mpFormulaC\mpNum\Win32\mpNumerix2.dll.config
+I:\Data\mpFormulaTDM\mpFormulaC\mpNum\Win32\mpNumerix2.dll
+I:\Data\mpFormulaTDM\mpFormulaC\mpNum\Win32\mpNumerix2.pdb
+I:\Data\mpFormulaTDM\mpFormulaC\mpNum\Win32\mpNumerix2.xml
+I:\Data\mpFormulaTDM\mpFormulaC\Source\mpNumerix2\mpNumerix2\obj\Debug\mpNumerix2.dll
+I:\Data\mpFormulaTDM\mpFormulaC\Source\mpNumerix2\mpNumerix2\obj\Debug\bin\Release\mpNumerix2.xml
+I:\Data\mpFormulaTDM\mpFormulaC\Source\mpNumerix2\mpNumerix2\obj\Debug\mpNumerix2.pdb

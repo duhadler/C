@@ -2779,6 +2779,7 @@ int MpfrClass::base = 10;
         MpfrClass::SetCurrPrecision(prec_old); // Wiederherstellen der alten Current-Precision
         return res;
       }
+      return res;
     }  // ln_sqrtxp1_2y2 = ln[ (1+x)^2 + y^2 ]
 
     MpfrClass zeta (const MpfrClass& r, RoundingMode rnd)

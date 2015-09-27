@@ -2644,11 +2644,11 @@ ende: res.RoundPrecision(prec_old);            // Runden auf die alte Current-Pr
         RelDiam(v, a);
 
         mpfr_exp_t e;
-        char* s;
+//        char* s;
         // s = mpfr_get_str(NULL, &e, MpfiClass::GetBase(), 5, a, MpfiClass::GetCurrRndMode());
-        s = mpfr_get_str(NULL, &e, MpfiClass::GetBase(), 5, a, RoundNearest);
+        char* s = mpfr_get_str(NULL, &e, MpfiClass::GetBase(), 5, a, RoundNearest);
         mpfr_clear(a);
-
+        mpfr_free_str(s);
         return e;
     }
 

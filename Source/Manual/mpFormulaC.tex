@@ -8,7 +8,6 @@
 \usepackage{cool} 
 \usepackage[retainorgcmds]{IEEEtrantools}
 \usepackage{suffix}
-%\usepackage{mathtools}
 \usepackage[titles]{tocloft}
 \usepackage{makeidx} 
 \usepackage{graphicx} 
@@ -26,7 +25,6 @@
 \usepackage[numbib]{tocbibind}
 \usepackage[pdftex,backref=page]{hyperref}
 \usepackage{hyperref}
-%\usepackage{minted}
 \usepackage{xcolor}
 \usepackage{courier}
 \usepackage{longtable}
@@ -166,9 +164,8 @@ Thomas Hadler
 } 
 \title{The mpFormulaC Library and Toolbox\\[0.2cm]
  Manual} 
-\date{May 2015 \\[0.2cm]
-Initial Draft \\
-(Pre-Alpha Version)}
+\date{July 2015 \\[0.2cm]
+Version {0.1}, Alpha 1 (Pre-Release)}
 \maketitle
 \end{titlepage}
 
@@ -194,8 +191,16 @@ Initial Draft \\
 \include{GettingStarted}
 
 
-\part{GMP and related libraries}
+\part{Functions With Error bounds}
 \include{FunctionsWithErrorBounds}
+
+
+\part{Special Functions}
+\include{SpecialFunctions}
+
+
+\part{GMP and related libraries}
+\include{GMPandRelated}
 
 
 \part{Eigen and related libraries}
@@ -207,6 +212,10 @@ Initial Draft \\
 \include{BoostMath}
 %\include{ODEandNLOPT}
 
+
+\part{Application Examples}
+%\include{FinancialFunctions}
+\include{ApplicationExamples}
 
 
 \part{Appendices}
